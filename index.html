@@ -53,7 +53,7 @@
 <nav class="navbar navbar-light bg-light tablet-header" id="mobileNav">
   <a class="navbar-brand" href="#">
     <img src="home/images/favicon.png" width="30" height="30" class="d-inline-block align-top" alt="">
-    Brien McMahon Musical
+  <b id="mobileText">Brien McMahon Musical</b>
   </a>
 </nav>
 
@@ -63,9 +63,11 @@
     <div class="page-header  clear-filter" data-parallax="true" style="background-image: url('home/images/mammamia-compressed.jpg');">
 
     </div>
-
+    <!--buttons-->
+    <div style="width:398.5px; margin: 0 auto;">
     <a class="btn" onclick="change()">Change Gradient</a>
     <a class="btn" id="theButton" onclick="changeTheme()">Change to dark theme</a>
+    </div>
 
     <section id="gradient"class="text-white space-lg" style="background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);">
         <div class="container">
@@ -215,6 +217,7 @@ console.log("The value of test is "+test);
   document.getElementById("activePage").style="color:white";
   document.getElementById("disabledPage").style="color: rgb(255,255,255,.3)";
   document.getElementById("activePage2").style="color:white";
+  document.getElementById("mobileText").style="color:white"
 
 
     }
@@ -230,6 +233,7 @@ else if (test%2==1) { //change to light theme
   document.getElementById("activePage").style=" ";
   document.getElementById("disabledPage").style=" ";
   document.getElementById("activePage2").style=" ";
+  document.getElementById("mobileText").style=" "
     }
 }
 
