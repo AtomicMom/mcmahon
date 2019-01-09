@@ -28,7 +28,28 @@ color: blue;
      display:none;
    }
  }
+#theButton{
+  color:white;
+background: linear-gradient(to right, #ee0979, #ff6a00);
 
+}
+
+#theButton:hover{
+  color:white;
+  background: linear-gradient(to right, #ff6a00, #ee0979);
+
+}
+
+#gradientButton{
+  color:white;
+  background: linear-gradient(to right, #fc00ff, #00dbde);
+
+}
+
+#gradientButton:hover{
+  color:white;
+  background: linear-gradient(to right, #00dbde, #fc00ff);
+}
 
  @media screen and (max-width: 992px){
    .desktop-header{
