@@ -507,3 +507,14 @@ color:white;
   display:none
 }
 }
+
+@media screen and (max-width: 991px){
+  .desktopScrolling{
+    display:none;
+  }
+}
+@media screen and (min-width: 992px){
+  .mobileScrolling{
+    display:none;
+  }
+}
