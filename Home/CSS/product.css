@@ -508,10 +508,7 @@ color:white;
 }
 }
 
-.desktopScrolling .mobileScrolling{
-
-  width: 300px;
-  height: 200px;
+body{
 
   overflow-y: scroll; /* has to be scroll, not auto */
   -webkit-overflow-scrolling: touch;
