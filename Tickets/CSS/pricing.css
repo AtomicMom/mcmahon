@@ -45,3 +45,15 @@ h5{
 .nav-colors{
   background-color: #e5e9f5;
 }
+
+@media only screen and (max-width: 600px){
+.ticketWidget{
+  display:none;
+}
+}
+
+@media only screen and (min-width: 600px){
+.largeHide{
+  display:none;
+}
+}
