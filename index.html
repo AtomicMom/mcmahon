@@ -65,20 +65,23 @@
     </div>
 
 
+
+
+
     <!--buttons-->
     <div style="width:398.5px; margin: 0 auto;">
   <a class="btn" id="gradientButton" onclick="change()">Change Gradient</a>
     <a class="btn" id="theButton" onclick="changeTheme()">Change to dark theme</a>
     </div>
 
-    <section id="gradient"class="text-white space-lg" style="background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);">
+    <section id="gradient"class="text-white space-lg desktop-hide" style="background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-10">
                     <div class="media">
                         <div class="media-body">
                             <div id="lower-div">
-                            <p class="h2 text-center" style="font-size:2rem; font-weight: 550">
+                            <p class="h2 text-center desktop-hide" style="font-size:1rem; font-weight: 550">
                           Online sales are over for March 9th, but you can still buy tickets up to one hour before each show at the ticket table. If you accidentaly purchased tickets for nex tweekend but want to attend today bring your printed at home ticket or your mobile recipt for us to swap out tickets. Additionally, online ticket sales for next weekend are closed for now as we sort out this issue.
                             </p>
                           </div>
@@ -89,6 +92,23 @@
         </div>
     </section>
 
+    <section id="gradient"class="text-white space-lg mobile-hide" style="background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
+                    <div class="media">
+                        <div class="media-body">
+                            <div id="lower-div">
+                            <p class="h2 text-center" style="font-size:2rem; font-weight: 550">
+                          Online sales are over for March 9th, but you can still buy tickets up to one hour before each show at the ticket table. If you accidentaly purchased tickets for nex tweekend but want to attend today bring your printed at home ticket or your mobile recipt for us to swap out tickets. Additionally, online ticket sales for next weekend are closed for now as we sort out this issue.
+                        </p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <br>
     <br>
     <br>
@@ -235,12 +255,18 @@
     <footer id="theFooter"class="container pb-3 pt-3 footer-tag text-center">
       <div class="row">
         <div class="col-12 col-lg text-center text-colors">
-          <h5 id="footerText"style="color:black">Website by Billy Begos</h5>
+          <h5 id="footerText" class="desktop-hide"style="color:black">Website by Billy Begos</h5>
         </div>
         <div class="row">
 
         </div>
     </footer>
+
+
+
+
+
+
 
     <script type="text/javascript"></script>
     <script>
@@ -302,6 +328,7 @@ else if (test%2==1) { //change to light theme
   document.getElementById("mobileText").style=" "
     }
 }
+
 
 
     </script>
